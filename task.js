@@ -21,17 +21,19 @@ for (index = 1; index <= 9; index++) {
             dead.textContent++;
         } else {blunder.textContent++;}
 
-        if (dead.textContent === 10) {
+        if (dead.textContent === '10') {
             alert('Победа');
             dead.textContent = 0;
             blunder.textContent = 0;
-        } else if (blunder.textContent === 10) {
+        } else if (blunder.textContent === '10') {
             alert('Поражение');
             dead.textContent = 0;
             blunder.textContent = 0;
         }
     }
 }
+
+
 
 // if (activateHole = index =>
 //     getHole( index ).className = 'hole hole_has-mole') {
